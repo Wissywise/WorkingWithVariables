@@ -1,0 +1,9 @@
+#Define a constant
+PI = 3.14159
+
+#Using the constant calculate the area of a circle
+radius = 5
+
+area = PI * radius * radius
+
+print("The area of the circle is: ", area)

@@ -1,0 +1,11 @@
+username = "Alice"
+print(username)
+print("Hello, " + username)
+age = 25
+print(username + "is" + str(age) + "years old")
+print(f"Hello, {username}") //print(f"{username} is {age} years old"). 
+print("Hello, {}!".format(username)) //print("{} is {} years old".format(username, age))
+print(f"The value of pi is {pi:.2f}")
+print('"Hello," she said.')
+print("\"Hello,\" she said.")
+print("Username:\tAlice\nAge:\t25")

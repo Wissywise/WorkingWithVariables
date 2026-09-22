@@ -1,0 +1,22 @@
+# Personal Budget Calculator
+
+# Step 1: Get income from the user
+income = int(input("Enter your total monthly income (in $): "))
+
+# Step 2: Get expenses from the user
+rent = int(input("Enter your rent expense (in $): "))
+groceries = int(input("Enter your groceries expense (in $): "))
+transport = int(input("Enter your transport expense (in $): "))
+utilities = int(input("Enter your utilities expense (in $): "))
+other_expenses = int(input("Enter your other expenses (in $): "))
+
+# Step 3: Calculate total expenses
+total_expenses = rent + groceries + transport + utilities + other_expenses
+
+# Step 4: Calculate remaining budget
+remaining_budget = income - total_expenses
+
+# Step 5: Display results
+print("Total Income:", income, "$")
+print("Total Expenses:", total_expenses, "$")
+print("Remaining Budget:", remaining_budget, "$")

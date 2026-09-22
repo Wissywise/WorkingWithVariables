@@ -1,0 +1,15 @@
+# Temperature Conversion Program
+
+# Step 1: Input temperature in Celsius
+celsius = float(input("Enter temperature in Celsius: "))
+
+# Step 2: Convert Celsius to Fahrenheit
+fahrenheit = (celsius * 9 / 5) + 32
+print("Temperature in Fahrenheit:", fahrenheit)
+
+# Step 3: Input temperature in Fahrenheit
+fahrenheit = float(input("\nEnter temperature in Fahrenheit: "))
+
+# Step 4: Convert Fahrenheit to Celsius
+celsius = (fahrenheit - 32) * 5 / 9
+print("Temperature in Celsius:", celsius)
